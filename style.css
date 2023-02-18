@@ -1,0 +1,69 @@
+main {
+  display: flex;
+}
+
+.the-boxes {
+  width: 250px;
+  height: 200px;
+  border: 1px solid darkgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.redbox {
+  background-color: red;
+  color: white;
+}
+
+.blackbox {
+  background-color: black;
+  color: white;
+}
+.purplebox {
+  background-color: purple;
+  color: white;
+}
+
+.yellowbox {
+  background-color: yellow;
+  color: black;
+}
+.orangebox {
+  background-color: orangered;
+  color: white;
+}
+
+.turned-off {
+  background-color: white;
+  color: black;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.main-score {
+  font-size: 30px;
+  padding-right: 200px;
+}
+
+#scoring-message {
+  font-size: 20px;
+}
+
+#bigRed {
+  color: red;
+}
+
+#score-section {
+  display: flex;
+  align-items: center;
+}
